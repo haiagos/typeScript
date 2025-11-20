@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Versão do JavaScript para a qual o código será compilado
+    "target": "es6",
+    // Sistema de módulos
+    "module": "commonjs",
+    // Pasta de saída para o código compilado
+    "outDir": "./dist",
+    // Pasta de origem dos arquivos TypeScript
+    "rootDir": "./src",
+    
+    // Habilita verificações estritas
+    "strict": true,
+    // Permite interoperabilidade com módulos ES6
+    "esModuleInterop": true,
+    // Força diferenciação entre maiúsculas e minúsculas
+    "forceConsistentCasingInFileNames": true,
+    // Pula a verificação de tipos em arquivos de biblioteca
+    "skipLibCheck": true,
+    
+    // Gera mapas de origem para debugging
+    "sourceMap": true,
+    // Gera arquivos de declaração (.d.ts)
+    "declaration": true,
+    // Gera mapas para arquivos de declaração
+    "declarationMap": true,
+    
+    // Detecção automática de módulos
+    "moduleDetection": "force"
+  },
+  // Inclui todos os arquivos TypeScript na pasta src
+  "include": ["src/**/*"],
+  // Exclui a pasta node_modules
+  "exclude": ["node_modules"]
+}
