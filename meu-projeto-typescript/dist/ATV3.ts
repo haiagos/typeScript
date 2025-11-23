@@ -1,3 +1,4 @@
+// EXERCÍCIO 1 - POLIMORFISMO COM VEÍCULOS
 class Veiculo {
   mover(): void {
     console.log("O veículo está se movendo");
@@ -22,7 +23,7 @@ const bicicleta = new Bicicleta();
 carro.mover();
 bicicleta.mover();
 
-
+// EXERCÍCIO 2 - FIGURAS GEOMÉTRICAS (CLASSE ABSTRATA)
 abstract class FiguraGeometrica {
   abstract calcularArea(): number;
 }
@@ -82,7 +83,7 @@ const figuras: FiguraGeometrica[] = [
 
 imprimirAreas(figuras);
 
-
+// EXERCÍCIO 3 - SISTEMA DE PAGAMENTO
 class Pagamento {
   processar(): void {
     console.log("Processando pagamento...");
@@ -130,7 +131,7 @@ const pagamentos: Pagamento[] = [
 
 processarPagamentos(pagamentos);
 
-
+// EXERCÍCIO 4 - HERANÇA COM ANIMAIS
 class Animal {
   private energia: number;
 
@@ -178,7 +179,7 @@ animais.forEach((animal) => {
   animal.statusEnergia();
 });
 
-
+// EXERCÍCIO 5 - SISTEMA DE FUNCIONÁRIOS
 abstract class Funcionario {
   protected nome: string;
   protected salario: number;

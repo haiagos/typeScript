@@ -1,3 +1,4 @@
+// EXERCÍCIO 1 - CONTA BANCÁRIA
 class ContaBancaria {
   titular: string;
   saldo: number;
@@ -20,6 +21,7 @@ class ContaBancaria {
   }
 }
 
+// EXERCÍCIO 2 - LIVRO
 class Livro {
   titulo: string;
   autor: string;
@@ -38,6 +40,7 @@ class Livro {
   }
 }
 
+// EXERCÍCIO 3 - PRODUTO
 class Produto {
   nome: string;
   preco: number;
@@ -54,6 +57,7 @@ class Produto {
   }
 }
 
+// EXERCÍCIO 4 - TEMPERATURA
 class Temperatura {
   valor: number;
 
@@ -70,6 +74,7 @@ class Temperatura {
   }
 }
 
+// EXERCÍCIO 5 - AGENDA
 class Agenda {
   compromissos: string[];
 
